@@ -1,0 +1,9 @@
+
+spring:
+  application:
+    name: global-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/tu-repo/config-repo
